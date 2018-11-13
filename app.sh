@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Author: kovaku
-#Description: Command line application to retrieve the weather data by city name
+#Description: Command line application to retrieve weather data by city name
 
 #validate commandline argument
 if [[ -n "$1" ]]; then
