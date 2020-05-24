@@ -1,0 +1,6 @@
+  <book category="web">
+    <title lang="en">My Title</title>
+    <author>The author</author>
+    <year>2020</year>
+    <price>99.99</price>
+  </book>
