@@ -8,7 +8,7 @@ TARGET_NODE="<\/book>"
 #Mark the first occurrence of target node
 sed -i "0,/${TARGET_NODE}/s/${TARGET_NODE}/target_node/" ${ORIGINAL_FILE}
 #Insert file content
-sed -i "/target_node/ r extension.xml" ${ORIGINAL_FILE}
+sed -i "/target_node/ r ${EXTENSION_FILE}" ${ORIGINAL_FILE}
 #Restore maker
 sed -i "s/target_node/${TARGET_NODE}/" ${ORIGINAL_FILE}
 
